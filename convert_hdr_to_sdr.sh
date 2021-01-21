@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 for file in $PWD/*
 do
   if [[ $file != *"convert_hdr"* && $file != *"ffmpeg"* ]]; then
